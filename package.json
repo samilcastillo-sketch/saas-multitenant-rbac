@@ -1,0 +1,25 @@
+{
+  "name": "saas-multitenant-rbac",
+  "version": "1.0.0",
+  "description": "Production-ready B2B Multi-Tenant Architecture with RBAC & Zero Leakage Isolation",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "saas",
+    "multi-tenancy",
+    "rbac",
+    "security",
+    "node",
+    "jwt",
+    "enterprise"
+  ],
+  "author": "Samil Castillo <samilcastillo77@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

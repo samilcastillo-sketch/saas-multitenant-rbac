@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  saas-backend:
+    build: .
+    container_name: saas-rbac-service
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - HOST=0.0.0.0
+      - JWT_SECRET=prod_super_secret_jwt_key_2026
+      - NODE_ENV=production
